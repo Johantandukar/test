@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Author: Johan Tandukar 
+	Group: C15
+	Londonmet ID: 18030039
+-->
+<?xml-stylesheet type = "text/css" href="catalog_18030039.css"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ 		xsi:noNamespaceSchemaLocation="catalog_18030039.xsd">
+
+	<shop>
+		<Name>Kathmandu Automobile Center</Name>
+		<Address>Tangal Marg, Kathmandu</Address>
+		<Telephone>+977-014420555</Telephone>
+		<URL>www.kathmanduautomobiles.com.np</URL>
+		<logo></logo>
+	</shop>
+
+	<cartypes>
+
+		<Hatchbacks>
+			
+			<Hatchback>
+				<name>Toyota Corolla LX</name>
+				<bandname> Toyota </bandname>
+				<module>Corolla LX</module>
+				<item_number>11001</item_number>
+				<description><![CDATA[ Toyota Corolla is a line of subcompact and compact cars manufactured by Toyota, Japan. It was introduced in 1966, the Corolla was the best-selling car worldwide by 1974 and has been one of the best-selling cars in the world since then. In 1997, the Corolla became the best selling nameplate in the world, surpassing the Volkswagen Beetle. Toyota reached the milestone of 44 million Corollas sold over twelve generations in 2016. The series has undergone several major redesigns.]]></description>
+				<quantity>1</quantity>
+				<price_rs rscurrency="Rs">1825000</price_rs>
+				<price_dollar>$ 15046.44</price_dollar>
+				<price_pound>&#163; 12088.41</price_pound>
+				<delivery>Free Delivery</delivery>
+
+				<information>
+					<manufactureryear>2011</manufactureryear>
+					<fueltype>Petrol</fueltype>
+					<color>Golden</color>
+					<mileage>21.43 kmpl</mileage>
+					<enginecc>1794 CC</enginecc>
+					<wheelbase>2700 millimeter</wheelbase>
+					<dimension unit="mm">4651L x 1775W x 1455H </dimension>
+				</information>
+			</Hatchback>
+
+
+			<Hatchback>
+				<name>Suzuki Wagon R Vxi</name>
+				<bandname>Suzuki</bandname>
+				<module>Wagon R Vxi</module>
+				<item_number>12001</item_number>
+				<description><![CDATA[ The Suzuki Wagon R is a kei car manufactured and marketed by Suzuki since 1993. The R in the name stands for Revolution and Relaxation . The Wagon R uses a "tall wagon" configuration to maximize cabin space within kei car dimensional restrictions. Wagon R is well proven car and huge presence of the same on roads indicate the same. A fine combination of decent power and mileage, good interiors are the advantages. However with advant of too many new models with updated styling and technical features, there is set back in sales of Wagon R as new car.]]></description>
+				<quantity>3</quantity>
+				<price_rs rscurrency="Rs">1489000</price_rs>
+				<price_dollar>$ 12176.58</price_dollar>
+				<price_pound>&#163;11196.86</price_pound>
+				<delivery>Free Delivery</delivery>
+
+				<information>
+					<manufactureryear>2019</manufactureryear>
+					<fueltype>Petrol</fueltype>
+					<color>Matte White</color>
+					<mileage>22 Kmpl</mileage>
+					<enginecc>1197 CC</enginecc>
+					<wheelbase>2400 millimeter</wheelbase>
+					<dimension unit="mm">3539L x 2400W x 1670H </dimension>
+				</information>
+
+			</Hatchback>
+
+			<Hatchback>
+				<name>Facelift Hyundai i20 Magna</name>
+				<bandname>Hyundai</bandname>
+				<module>i20 Magna</module>
+				<item_number>12222</item_number>
+				<description><![CDATA[ Hyundai Elite i20 is quite high on style quotient due to the European touch in the exterior designing, which is definitely benefiting the company. It is said, "First impression is the last impression"; the same holds true in case of cars First things first, Hyundai Elite i20 pays no resemblance to the outgoing model of the hatch, at least in the exterior appearance. The Fluidic Sculpture 2.0 design philosophy is quite contemporary, quite similar to the one that Peugeot ( French automaker) cars adorn.]]></description>
+				<quantity>2</quantity>
+				<price_rs rscurrency="Rs">1895000</price_rs>
+				<price_dollar>$ 15500.89</price_dollar>
+				<price_pound>&#163;14253.06</price_pound>
+				<delivery>Free Delivery</delivery>
+
+				<information>
+					<manufactureryear>2013</manufactureryear>
+					<fueltype>Petrol</fueltype>
+					<color>Grey</color>
+					<mileage>42 kmpl</mileage>
+					<enginecc>1200</enginecc>
+					<wheelbase>2570 millimeter</wheelbase>
+					<dimension unit="mm">3985L x 1734W x 1505H </dimension>
+				</information>
+			</Hatchback>
+
+		</Hatchbacks>
+
+		<Sedans>
+
+			<sedan>
+				<name>VERNA</name>
+				<bandname>Hyundai</bandname>
+				<module>VERNA</module>
+				<item_number>15001</item_number>
+				<description><![CDATA[The Hyundai Verna is based on Hyundai’s fluidic design, which makes the Verna the best-looking sedan in this segment. The cascading grille and the sharp design language give the Verna a sporty stance. The Verna is offered with a choice of one diesel and two petrol engine. This helps Hyundai cater to a wider audience who are looking for a car that ticks multiple boxes. The Hyundai Verna offers the best performance in the mid-size segment, be it with diesel or petrol. The choice of 1.6-litre diesel and petrol engines suit enthusiastic drivers as well as those looking for a car to commute in the city or enjoy long highway drives. The Hyundai Verna is well-equipped when it comes to safety as well. While dual airbags with ABS and EBD are standard across variants, the top-spec variant gets 6 airbags, ISOFIX child seat anchors, and more.]]></description>
+				<quantity>2</quantity>
+				<price_rs rscurrency="Rs">4256000</price_rs>
+				<price_pound>&#163; 27822.25</price_pound>
+				<delivery>Express Delivery</delivery>
+				<information>
+					<manufactureryear>2017</manufactureryear>
+					<fueltype>Petrol and Diseal</fueltype>
+					<color>Black</color>
+					<mileage>22 Kmpl</mileage>
+					<enginecc>1582 CC</enginecc>
+					<wheelbase>2600 millimeter</wheelbase>
+					<dimension unit="mm">4440L x 1729W x 1475H </dimension>
+				</information>
+			</sedan>
+
+			<sedan>
+				<name>Hyundai Xcent S</name>
+				<bandname>Hyundai</bandname>
+				<module>Xcent</module>
+				<item_number>15002</item_number>
+				<description><![CDATA[Hyundai Xcent S is an exception car one might be looking to buy. It features a very classy exterior, powerful engine and great on performance. It stunning and classy face of Hyundai Xcent S is just fabulous. Hyundai offers a very good mileage on board on both the fuel options diesel and petrol it has a mileage of 19.1 KMPL on petrol and a magnificent mileage of 24 km per liter on diesel which is actually a very good mileage for a sedan like Xcent. Some Acceleration issue is there but that is negligible in front of its mileage and looks.]]></description>
+				<quantity>2</quantity>
+				<price_rs rscurrency="Rs"> 2896000</price_rs>
+				<price_pound>&#163; 18931.68</price_pound>
+				<delivery>Express Delivery</delivery>
+				<information>
+					<manufactureryear>2014</manufactureryear>
+					<fueltype>Petrol and Diesel</fueltype>
+					<color>Orange</color>
+					<mileage>19.1 Kmpl and 24 Kmpl</mileage>
+					<enginecc>1197 CC</enginecc>
+					<wheelbase>2585 millimeter</wheelbase>
+					<dimension unit="mm">3995L x 1660W x 1520H </dimension>
+				</information>
+			</sedan>
+
+			<sedan>
+				<name>Honda Amaze</name>
+				<bandname>Honda</bandname>
+				<module>Amaze</module>
+				<item_number>15003</item_number>
+				<description><![CDATA[Honda Amaze was showcased at the 2018 Auto Expo a few months ago, and the Japanese carmaker is gearing up to launch the vehicle in India. The Honda Amaze is an all-new car, built specifically for India on a new platform. Honda is betting big with the Amaze, and the compact sedan is a sure shot hit already. This is the first time Honda is offering a CVT gearbox with the diesel engine. The petrol variant gets a CVT too, with optional paddle shifters. The top-of-the-line VX variant of the new Honda Amaze features a 7-inch infotainment system with Android Auto, Apple CarPlay, and navigation.]]></description>
+				<quantity>3</quantity>
+				<price_rs rscurrency="Rs">3200000</price_rs>
+				<price_pound>&#163; 20063.09</price_pound>
+				<delivery>Express Delivery</delivery>
+				<information>
+					<manufactureryear>2013</manufactureryear>
+					<fueltype>Petrol</fueltype>
+					<color>White</color>
+					<mileage>27.4 Kmpl</mileage>
+					<enginecc>1200 CC</enginecc>
+					<wheelbase>2470 millimeter</wheelbase>
+					<dimension unit="mm">3995L x 1695W x 1501H </dimension>
+				</information>
+			</sedan>
+
+		</Sedans>
+
+		<Suvs>
+
+			<suv>
+				<name>Suv MG ZS EV</name>
+				<bandname>MG Motors</bandname>
+				<module>MG ZS</module>
+				<item_number>14001</item_number>
+				<description><![CDATA[The new MG ZS EV is the family-friendly electric car, designed for those who want all the advanatages of a zero emissions vehicle without compromissing on pratically or style. Benefitting from our extensive experience in the manufacture of electric cars and batteries, the manufacture of electric cars and batteries, the ZS EV pairs beautiful design with outstanding technolgy. Powered by a 44.5 kWh, water-cooled lithium-iron battery, you can enjoy a driving range up to 163 miles from a single charge on the WLTP combined cycle.]]> </description>
+				<quantity>1</quantity>
+				<price_rs rscurrency="Rs">4999000</price_rs>
+				<price_pound>&#163; 37591.06</price_pound>
+				<delivery>Express Delivery</delivery>
+
+				<information>
+					<manufactureryear>2019</manufactureryear>
+					<fueltype>Electric</fueltype>
+					<batterylife>9 hr </batterylife>
+					<color>Red</color>
+					<dimension unit="mm">4314L x 1809W x 1644H millimeter</dimension>
+				</information>
+			</suv>
+
+			<suv>
+				<name>Volkswagen Vento Highilne</name>
+				<bandname>Volkswagen</bandname>
+				<module>Vento</module>
+				<item_number>14010</item_number>
+				<description><![CDATA[The Volkswagen Vento Highilne is a popular suv which is available in three diesel and three petrol variants. It starts at Rs.7.29 lakh for the base petrol variant and goes up to Rs.9.89 lakh for the top-end diesel variant. The Vento is a rich-looking sedan with lots of snob value being the Volkswagen. It has very good build quality offers good handling and a smooth and refined petrol engine. The diesel engine too is fun and punchy. The Vento is a classy looking sedan for the status conscious and is a complete package for the most part. It does miss out on some features and gadgets but they are not too expensive and you can always get you own choice of accessories and gadgets after market.]]> </description>
+				<quantity>3</quantity>
+				<price_rs rscurrency="Rs">2675000</price_rs>
+				<price_pound>&#163; 20115.24</price_pound>
+
+				<information>
+					<manufactureryear>2015</manufactureryear>
+					<fueltype>Petrol</fueltype>
+					<color>Silver</color>
+					<enginecc>1600 CC</enginecc>
+					<wheelbase>2685 millimeter</wheelbase>
+					<dimension unit="mm">4390L x 1699W x 1467H </dimension>
+				</information>
+			</suv>
+
+			<suv>
+				<name>Mitsubishi Outlander</name>
+				<bandname>Mitsubishi</bandname>
+				<module>Outlander</module>
+				<item_number>14016</item_number>
+				<description><![CDATA[The Mitsubishi Outlander is a crossover SUV that can seat up to seven passengers. The vehicle can be driven in front-wheel drive or all-wheel drive modes. Crossover SUVs, designed to haul families, is an ever-increasing market. The Outlander has a lot of competition in this category. There are a few reasons why the Outlander may be the best choice for you. The Mitsubishi Outlander comes equipped with seven airbags on the standard model. Antilock brakes and a rear-view camera are also standard features. Three rows allow you to pack the Outlander full of passengers. The seating capacity is seven, but it is worth noting that the third row is small. It is best suited for children. There is plenty of room for a family or a carload of friends. The 4-cylinder engine gets a nice rating of 25 mpg during city driving and 31 mpg on the highway. This gives it a combined EPA, fuel-economy rating of 27 mpg.]]> </description>
+				<quantity>3</quantity>
+				<price_rs rscurrency="Rs">1000000</price_rs>
+				<price_dollar>$ 8177.69</price_dollar>
+				<price_pound>&#163; 6537.18</price_pound>
+
+				<information>
+					<manufactureryear>2018</manufactureryear>
+					<fueltype>Petrol</fueltype>
+					<color>Silver</color>
+					<mileage>10.2 Kmpl</mileage>
+					<enginecc>1600 CC</enginecc>
+					<wheelbase>2670 millimeter</wheelbase>
+					<dimension unit="mm">4695L x 1810W x 1710H </dimension>
+				</information>
+			</suv>
+		</Suvs>
+
+		<Coupes>
+
+			<Coupe ref = "MB200">
+				<name>Mercedes Benz E 200</name>
+				<bandname>Mercedes Benz</bandname>
+				<module>E-Class</module>
+				<item_number>13001</item_number>
+				<description><![CDATA[ The Mercedes-Benz E-Class is a range of executive luxury cars, introduced in 1993. Slightly roomier than a large family car, a vehicle from this class is sure to impress. The following information offers a brief overview of the many advantages offered by the Mercedes E-Class. The 2015 models have received a slight face-lift over the 2014 models. The hood is slightly shorter and the rear sits higher from the ground. In all other respects, the two versions are identical.]]></description>
+				<quantity>2</quantity>
+				<price_rs rscurrency="Rs">26000000</price_rs>
+				<price_dollar>$ 212619.94</price_dollar>
+				<price_pound>&#163;195512.62</price_pound>
+
+
+				<information>
+					<manufactureryear>2014</manufactureryear>
+					<fueltype>Petrol</fueltype>
+					<color>Circongruen Pearl</color>
+					<mileage>12 Kmpl</mileage>
+					<enginecc>1991 CC</enginecc>
+					<wheelbase>2939 millimeter</wheelbase>
+					<dimension unit="mm">5063L x 1860W x 1494H </dimension>
+				</information>
+			</Coupe>
+
+			<Coupe ref = "MB350">
+				<name>Mercedes Benz S 350 CDI</name>
+				<bandname>Mercedes Benz</bandname>
+				<module>S-Class</module>
+				<item_number>13002</item_number>
+				<description><![CDATA[ The 2014 Mercedes-Benz S-Class (codenamed W222) was unveiled at the German automaker’s Sindelfingen factory in May 2013 and was launched for the Indian market in the S500 guise in January. This car, the S 350 CDI, was launched in June and is the more affordable version, mind you, the term affordable is quite relative when you are talking about a car like the S-Class.  ]]></description>
+				<quantity>5</quantity>
+				<price_rs rscurrency="Rs">50000000</price_rs>
+				<price_dollar>$ 408884.50</price_dollar>
+				<price_pound>&#163;375985.82</price_pound>
+
+				<information>
+					<manufactureryear>2014</manufactureryear>
+					<fueltype>Diseal</fueltype>
+					<color>Kristal Green</color>
+					<mileage>13.5 Kmpl</mileage>
+					<enginecc>2987 CC</enginecc>
+					<wheelbase>3035 millimeter</wheelbase>
+					<dimension unit="mm">5096L x 2120W x 1485H </dimension>
+				</information>
+			</Coupe>
+
+			<Coupe ref = "MB500">
+			<name>Mercedes Benz S 500</name>
+				<bandname>Mercedes Benz</bandname>
+				<module>S-Class</module>
+				<item_number>13003</item_number>
+				<description><![CDATA[ The 2020 Mercedes-Benz S-Class is part of a generation that launched for the 2014 model year. Older models will likely be much less expensive than a new S-Class. Just be aware that this Mercedes has seen some significant changes over the years.The S-Class coupe and a plug-in-hybrid sedan debuted for 2015, and a convertible model followed for 2017. The 2018 S-Class saw the introduction of a new base trim, the S 450, and a 362-horsepower base engine.]]></description>
+				<quantity>4</quantity>
+				<price_rs rscurrency="Rs">50000000</price_rs>
+				<price_dollar>$ 408884.50</price_dollar>
+				<price_pound>&#163;375985.82</price_pound>
+
+				<information>
+					<manufactureryear>2014</manufactureryear>
+					<fueltype>Petrol</fueltype>
+					<color>Calcite Yellow</color>
+					<mileage>10 Kmpl</mileage>
+					<enginecc>4663 CC</enginecc>
+					<wheelbase>3365 millimeter</wheelbase>
+					<dimension unit="mm">5096L x 2120W x 1485H </dimension>
+				</information>
+			</Coupe>
+		</Coupes>
+
+		<Pickups>
+
+			<pickup id = "MM101">
+				<name>Mahindra Maxximo Plus Vx</name>
+				<bandname>Mahindra</bandname>
+				<module>Maxximo Plus Vx</module>
+				<item_number>16001</item_number>
+				<description><![CDATA[Maxximo is powered by the pioneering 2-cylinder C2 CRDe engine with DOHC technology and 4 valves per cylinder, making it the world’s first of its kind. It generates a best-in-class power of 18.4 kW (25 HP) and offers fuel economy of 21.9 kmpl. The Maxximo boasts of superior pick-up, in-gear acceleration and gradeability. A large loading area of 3.2 sq. mt. (35 sq. ft.) coupled with 850 kg of rated payload mean that the customer can carry more load in one trip, leading to improved earnings.]]></description>
+				<quantity>2</quantity>
+				<price_rs rscurrency="Rs">1235000</price_rs>
+				<price_dollar>$ 10099.45</price_dollar>
+				<price_pound>&#163; 8073.42</price_pound>
+				<delivery>Express Delivery</delivery>
+				<information>
+					<manufactureryear>2018</manufactureryear>
+					<fueltype>Diesel</fueltype>
+					<color>Blue</color>
+					<mileage>21.9 Kmpl</mileage>
+					<enginecc>909 CC</enginecc>
+					<dimension unit="mm">2205L x 1465W x 330H </dimension>
+				</information>
+			</pickup>
+
+			<pickup id = "TA200">
+				<name>Tata ACE Ht2</name>
+				<bandname>Tata Motors</bandname>
+				<module>ACE Ht2</module>
+				<item_number>16002</item_number>
+				<description><![CDATA[Tata ACE Ht2 is economical and fuel efficient with robust and reliable diesel engine. High ground clearance and high loading capacity added to its performance, its unique design offers superior style and comfort. The compact 4-wheel mini truck is specially designed for steep terrain. The Ace HT is equipped with deep gear ratios, rendering it the high torque needed to climb steep slopes with remarkable ease. This, along with its powerful twin-cylinder water-cooled diesel engine with an output of 16bhp @3200 r/min is sure to take you and business to greater heights.]]></description>
+				<quantity>3</quantity>
+				<price_rs rscurrency="Rs">1345000</price_rs>
+				<price_dollar>$ 10998.99</price_dollar>
+				<price_pound>&#163; 8792.51</price_pound>
+				<delivery>Express Delivery</delivery>
+				<information>
+					<manufactureryear>2019</manufactureryear>
+					<fueltype>Diesel</fueltype>
+					<color>White</color>
+					<mileage>21.9 Kmpl</mileage>
+					<enginecc>702 CC</enginecc>
+					<dimension unit="mm">3800L x 1500W x 1861H </dimension>
+				</information>
+			</pickup>
+
+			<pickup id = "TA200">
+				<name>Tata ACE Ht High Deck Pickup</name>
+				<bandname>Tata Motors</bandname>
+				<module>ACE Ht High Deck</module>
+				<item_number>16003</item_number>
+				<description><![CDATA[ Tata ACE Ht High Deck Pickup is economical and fuel efficient with robust and reliable diesel engine. High ground clearance and high loading capacity added to its performance, its unique design offers superior style and comfort. Tata Ace High Deck Pickup you choose to start earning from day one. It is economical and fuel efficient with robust and reliable diesel engine. High ground clearance and high loading capacity added to its performance, its unique design offers superior style and comfort.]]></description>
+				<quantity>2</quantity>
+				<price_rs rscurrency="Rs">1285000</price_rs>
+				<price_pound>&#163;8400.28</price_pound>
+
+				<information>
+					<manufactureryear>2019</manufactureryear>
+					<fueltype>Diesel</fueltype>
+					<color>Cream</color>
+					<mileage>21.9 Kmpl</mileage>
+					<enginecc>702 CC</enginecc>
+					<dimension unit="mm">3800L x 1500W x 1861H </dimension>
+				</information>
+			</pickup>
+
+		</Pickups>
+
+		<Vans>
+
+			<Van>
+				<name>Maruti Suzuki Omni Cargo Van</name>
+				<bandname>Maruti Suzuki</bandname>
+				<module>Omni Cargo</module>
+				<item_number>16001</item_number>
+				<description><![CDATA[Maruti Omni MPI CARGO returns a pretty good mileage and thus has a good fuel economy. Furthermore, the car provides ample cabin space. Maruti Omni MPI CARGO is a little wobbly at high speeds due to disproportionate height and wheelbase ratio. Maruti Suzuki Omni has been proved to be a very efficient and a low-maintenance car for years. It is available in different variants which include a cargo model, a family car with 5 and 8-seater option and an ambulance which fulfills the need of many. Engine performance of Omni is well proven and it is fuel efficient also. It provides a mileage of 16.8 kmpl on highways. Some of the drawback for this car are absence of AC, low safety measures and unstability at high speeds which makes it unfit for highways.]]></description>
+				<quantity>3</quantity>
+				<price_rs rscurrency="Rs">939000</price_rs>
+				<price_pound>&#163; 6138.42</price_pound>
+
+				<information>
+					<manufactureryear>2014</manufactureryear>
+					<fueltype>Petrol</fueltype>
+					<color>Blue</color>
+					<mileage>16.8 Kmpl</mileage>
+					<enginecc>796 CC</enginecc>
+					<dimension unit="mm">3370L x 1410W x 1640H </dimension>
+				</information>
+			</Van>
+		
+		</Vans>
+
+	</cartypes>
+
+</root>

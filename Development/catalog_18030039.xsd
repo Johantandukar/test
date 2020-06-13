@@ -1,0 +1,328 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="shop">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" type="xs:string" />
+              <xs:element name="Address" type="xs:string" />
+              <xs:element name="Telephone" type="xs:string" />
+              <xs:element name="URL" type="xs:anyURI"/>
+              <xs:element name="logo" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="cartypes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Hatchbacks">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Hatchback" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="name" type="xs:string" />
+                          <xs:element name="bandname" type="xs:string" />
+                          <xs:element name="module" type="xs:string" />
+                          <xs:element name="item_number" type="xs:string" />
+                          <xs:element name="description" type="xs:string" />
+                          <xs:element name="quantity" type="xs:integer" />
+                          <xs:element name="price_rs">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:int">
+                                  <xs:attribute name="rscurrency" type="xs:string"  use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="price_dollar" type="xs:string" />
+                          <xs:element name="price_pound" type="xs:string" />
+                          <xs:element name="delivery" type="xs:string" />
+                          <xs:element name="information">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="manufactureryear" type="xs:short" />
+                                <xs:element name="fueltype" type="xs:string" />
+                                <xs:element name="color" type="xs:string" />
+                                <xs:element name="mileage" type="xs:string" />
+                                <xs:element name="enginecc" type="xs:string" />
+                                <xs:element name="wheelbase" type="xs:string" />
+                                <xs:element name="dimension">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="unit" type="xs:string"  use="optional"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Sedans">
+                <xs:complexType>
+                  <xs:choice maxOccurs="unbounded" minOccurs="0">
+                    <xs:element name="sedan">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="name" type="xs:string" />
+                          <xs:element name="bandname" type="xs:string" />
+                          <xs:element name="module" type="xs:string" />
+                          <xs:element name="item_number" type="xs:string" />
+                          <xs:element name="description" type="xs:string" />
+                          <xs:element name="quantity" type="xs:integer" />
+                          <xs:element name="price_rs">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:float">
+                                  <xs:attribute name="rscurrency" type="xs:string"  use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="price_pound" type="xs:string" />
+                          <xs:element type="xs:string" name="delivery"/>
+                          <xs:element name="information">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="manufactureryear" type="xs:short" />
+                                <xs:element name="fueltype" type="xs:string" />
+                                <xs:element name="color" type="xs:string" />
+                                <xs:element name="mileage" type="xs:string" />
+                                <xs:element name="enginecc" type="xs:string" />
+                                <xs:element name="wheelbase" type="xs:string" />
+                                <xs:element name="dimension">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="unit" type="xs:string"  use="optional"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Suvs">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="suv" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="name" type="xs:string" />
+                          <xs:element name="bandname" type="xs:string" />
+                          <xs:element name="module" type="xs:string" />
+                          <xs:element name="item_number" type="xs:string" />
+                          <xs:element name="description" type="xs:string" />
+                          <xs:element name="quantity" type="xs:integer" />
+                          <xs:element name="price_rs">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:int">
+                                  <xs:attribute type="xs:string" name="rscurrency" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="price_dollar" type="xs:string"  minOccurs="0" maxOccurs="unbounded"/>
+                          <xs:element name="price_pound" type="xs:string" />
+                          <xs:element name="delivery" type="xs:string"  minOccurs="0"/>
+                          <xs:element name="information">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="manufactureryear" type="xs:integer" />
+                                <xs:element name="fueltype" type="xs:string" />
+                                <xs:element name="batterylife" type="xs:string"  minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:element name="color" type="xs:string" />
+                                <xs:element name="mileage" type="xs:string"  minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:element name="enginecc" type="xs:string"  minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:element name="wheelbase" type="xs:string"  minOccurs="0" maxOccurs="unbounded"/>
+                                <xs:element name="dimension">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute type="xs:string" name="unit" use="optional"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Coupes">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Coupe" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="name" type="xs:string" />
+                          <xs:element name="bandname" type="xs:string" />
+                          <xs:element name="module" type="xs:string" />
+                          <xs:element name="item_number" type="xs:short" />
+                          <xs:element name="description" type="xs:string" />
+                          <xs:element name="quantity" type="xs:byte" />
+                          <xs:element name="price_rs">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:int">
+                                  <xs:attribute name="rscurrency" type="xs:string"  use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="price_dollar"/>
+                          <xs:element type="xs:string" name="price_pound"/>
+                          <xs:element name="information">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="manufactureryear"  type="xs:integer"/>
+                                <xs:element name="fueltype" type="xs:string" />
+                                <xs:element name="color" type="xs:string" />
+                                <xs:element name="mileage" type="xs:string" />
+                                <xs:element name="enginecc" type="xs:string" />
+                                <xs:element name="wheelbase" type="xs:string" />
+                                <xs:element name="dimension">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="unit" type="xs:string" use="optional"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="ref" type="xs:string"  use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Pickups">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="pickup" minOccurs="0" maxOccurs="unbounded" >
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="name" type="xs:string" />
+                          <xs:element name="bandname" type="xs:string" />
+                          <xs:element name="module" type="xs:string"/>
+                          <xs:element name="item_number" type="xs:string" />
+                          <xs:element name="description" type="xs:string" />
+                          <xs:element name="quantity" type="xs:integer" />
+                          <xs:element name="price_rs">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:int">
+                                  <xs:attribute name="rscurrency" type="xs:string"  use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="price_dollar" type="xs:string"  minOccurs="0" maxOccurs="unbounded"/>
+                          <xs:element name="price_pound" type="xs:string"/>
+                          <xs:element name="delivery" type="xs:string"  minOccurs="0" maxOccurs="unbounded"/>
+                          <xs:element name="information">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="manufactureryear" type="xs:integer" />
+                                <xs:element name="fueltype" type="xs:string" />
+                                <xs:element name="color" type="xs:string" />
+                                <xs:element name="mileage" type="xs:string" />
+                                <xs:element name="enginecc" type="xs:string" />
+                                <xs:element name="dimension">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="unit" type="xs:string" use="optional"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Vans">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Van">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="name" type="xs:string" />
+                          <xs:element name="bandname" type="xs:string" />
+                          <xs:element name="module" type="xs:string" />
+                          <xs:element name="item_number" type="xs:short" />
+                          <xs:element name="description" type="xs:string" />
+                          <xs:element name="quantity" type="xs:integer" />
+                          <xs:element name="price_rs">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:int">
+                                  <xs:attribute name="rscurrency" type="xs:string" />
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="price_pound" type="xs:string" />
+                          <xs:element name="information">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="manufactureryear" type="xs:integer" />
+                                <xs:element name="fueltype" type="xs:string" />
+                                <xs:element name="color" type="xs:string" />
+                                <xs:element name="mileage" type="xs:string"/>
+                                <xs:element name="enginecc" type="xs:string" />
+                                <xs:element name="dimension">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute type="xs:string" name="unit"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
